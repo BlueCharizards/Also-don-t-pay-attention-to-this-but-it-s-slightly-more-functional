@@ -34,9 +34,9 @@ False False False False False True"""
 #and or not
 """WHAT CAN I SAY BUT HEY YOU'RE WELCOME"""
 
-value1 = False
+"""value1 = False
 value2 = False
-value3 = True
+value3 = True"""
 #False 0 is less than or equal to 10x2=20 20-20=0
 
 """YES I did life correctly!!!!!!!
@@ -61,9 +61,9 @@ absolutelynothing = input"""
 """OR or or or or or or orange or or or or or or or help"""
 """help is purple that's cool"""
 
-value1 = False
+"""value1 = False
 value2 = False
-value3 = True
+value3 = True"""
 
 """input ("Pardon me, are you Aaron Burr, sir? ")
 Lin = input
@@ -72,9 +72,9 @@ Manuel = input
 input ("Sir, I heard your name at Princeton I was seeking an accelerated course of study, when I got sort of out of sorts with a buddy of yours. I may have punched him, it's a blur, sir, he handles the financials? ")
 Miranda = input"""
 
-value1 = True
+"""value1 = True
 value2 = True
-value3 = False
+value3 = False"""
 
 """uuuuhhhgnnnnnsnnnsnnnsngsnnshh"""
 """I'm too STUPID"""
@@ -135,21 +135,21 @@ def three(y):
 #if that number is divisible by 3, it calls the first function.
 #otherwise, it returns False.
 
-def cube(z):
+"""def cube(z):
     return z**3
 
 def three(a):
     if (a)%3 == 0:
         return cube(a)
     else:
-        return False
+        return False"""
 
 """did I do the thing right? Because I don't know how to make it do the other function but it still does what it's supposed to I think?"""
 """WAIT NO I DIDN'T I FORGOT THE OTHER THING"""
 """Okay crisis averted I did it and it works for once but I don't know how to actually do a function inside another function and I think that was the point"""
 """IT ACTUALLY WORKS IT'S A MIRACLE I CAN'T BELIEVE IT WHAT DID I DO HOOOWWWWWWWWWW I'M NOT STUPID I HAVE PROOF NOW"""
 
-import math
+"""import math
 
 print (math.sqrt(562))
     
@@ -163,7 +163,7 @@ print (minimum)
 absolute = abs(-35)
 print (absolute)
 
-print(type(42))
+print(type(42))"""
 
 
 #create a function that calculates and returns your hotel costs
@@ -177,7 +177,7 @@ Tokyo $475"""
 
 """So I'm gonna say my vacation is a week long because that seems reasonable so 7 nights"""
 
-def hotel(e):
+"""def hotel(e):
     return e * 150
 
 Chicago = 183
@@ -196,13 +196,13 @@ def City(c):
     else:
         print ("you can't go there!")
 
-"""OR"""
+OR
 
 def plane_cost(city):
     if city == Chicago:
         return 183
     elif city == Toronto:
-        return 220
+        return 220"""
 """etc."""
 
 #Define another function that calculates and returns the cost of renting a car.
@@ -236,7 +236,7 @@ total_cost()"""
 #uuuuughhuuughgfsfgghuhg Modify the total_cost function so that instead of requiring arguments, it asks the user for the city and the number of days
 #If the user enters a city not on our list, the program should ask the user to enter a valid city instead of giving an error.
 
-numbers = [2,5,6,7,9,10,43]
+"""numbers = [2,5,6,7,9,10,43]
 
 print (numbers[6])
 numbers[4] = 637
@@ -261,7 +261,7 @@ print (animals)
 #ant, snake, bat, cat, dog
 
 animals.pop(2)
-#animals.pop removes an item based on inde
+#animals.pop removes an item based on index
 
 print (animals)
 
@@ -277,4 +277,79 @@ print (animals)
 
 def first(list1):
     print(list1[0])
-#########ITDIDATHING#########
+#########ITDIDATHING#########"""
+
+"""ugh = [4, 7, 2, 4, 9]
+
+numbers1 = []
+
+for num in ugh:
+    square = num**2
+    numbers1.append(square)
+print(numbers1)
+
+#list should look like this:
+#numbers1 == [16, 49, 4, 16, 81]"""
+
+"""nested_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+for item in nested_list:
+    for item1 in item:
+        print (item1)
+
+range(6) #-> [0, 1, 2, 3, 4, 5]
+range (1, 7) #-> [1, 2, 3, 4, 5, 6]
+range(1, 6,  3) # -> [1, 4]
+
+for i in range(5):
+    # [0, 1, 2, 3, 4]
+    # do whatever"""
+
+"""d = {"key1": 1, "key2": 2, "key3": 3}
+
+d["key4"] = 4 #add a key
+
+print (d)
+
+del d["key 2"] #delete a key 
+
+print (d)"""
+
+"""fruits = {"fruit1": "apple", "fruit2": "orange", "fruit3": "strawberries"}
+
+for key in fruits:
+    print (fruits[key])"""
+
+#Create 2 dictionaries with the following values;
+# Food      Cost
+# Banana    4
+# Apple     2
+# Orange    1.5
+# Pear      3
+
+# Food      Stock
+# Banana    6
+# Apple     0
+# Orange    32
+# Pear      15
+
+goats = {"Banana": 4, "Apple": 2, "Orange": 1.50, "Pear": 3}
+stalk = {"Banana": 6, "Apple": 0, "Orange": 32, "Pear": 15}
+
+#Create a for loop that prints the name of the fruit, the cost and the stock
+#Banana
+#price: 4
+#stock: 6
+#Apple
+#price: 2
+#stock: 0
+
+"""for fruit in goats:
+    print (fruit)
+    print ("Price: " + str(goats[fruit]))
+    print ("Stock: " + str(stalk[fruit]))"""
+liquidation = 0
+for fruit in goats:
+    liquidation += goats[fruit] * stalk[fruit] 
+print (liquidation)
+
+#Print the total cost of buying all the fruit in stock
